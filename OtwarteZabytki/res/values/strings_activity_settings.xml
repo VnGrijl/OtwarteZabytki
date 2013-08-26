@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="title_activity_settings">Ustawienia</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_mail_title">Dołącz mój adres email</string>
+    <string name="pref_mail_subtitle">Podczas wysyłania zabytku dodaj mój adres email do danych</string>
+    <string name="pref_mail">Adres email</string>
+    <string name="pref_get_pictures_title">Pobierz miniatury zdjęć zabytków</string>
+    
+   
+
+</resources>

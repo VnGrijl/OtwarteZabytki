@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:showDividers="middle"
+    android:dividerPadding="12dp">
+
+<FrameLayout 
+    android:id="@+id/actionbar_cancel"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/draw_listview_selector">
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingRight="20dp"
+        android:drawableLeft="@drawable/ic_action_cancel"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/action_cancel" />
+</FrameLayout>    
+
+<FrameLayout 
+    android:id="@+id/actionbar_done"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/draw_listview_selector">
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingRight="20dp"
+        android:drawableLeft="@drawable/ic_action_ok"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/action_done" />
+</FrameLayout>
+
+   
+</LinearLayout>

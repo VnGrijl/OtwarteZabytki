@@ -1,0 +1,197 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_holo_light"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbars="none"
+    tools:context=".RelicEditActivity" >
+	
+    <LinearLayout  
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:background="@drawable/googlecard"
+    	android:paddingLeft="10dp"
+    	android:paddingRight="10dp">
+    	
+    <LinearLayout
+        android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"   	
+    	>
+		<ImageView
+			android:id="@+id/relic_edit_img"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:paddingTop="13dp"
+			android:paddingBottom="13dp" 
+			android:src="@drawable/ic_default_relic"
+			android:contentDescription="@string/content_relic_detail_thumbnail"
+		/>
+		<LinearLayout
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:paddingTop="13dp"
+		    android:paddingBottom="13dp"
+		   	android:paddingLeft="10dp"
+		    >
+			<EditText 
+	    		android:id="@+id/relic_edit_identification_id"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:inputType="textCapSentences"
+				android:hint="@string/relic_edit_name_hint">
+				<requestFocus />
+			</EditText>
+			<EditText 
+	    		android:id="@+id/relic_edit_dating_id"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:inputType="text"
+				android:hint="@string/relic_edit_dating_hint"
+				android:layout_marginTop="5dp"
+			/>
+		</LinearLayout>
+	</LinearLayout>
+    <TextView
+    	android:layout_width="match_parent"
+     	android:layout_height="wrap_content"
+     	android:layout_marginTop="16dp"
+     	android:paddingLeft="10dp"
+    	android:text="@string/relic_details_location_label"
+     	android:textColor="@color/page_background"
+      	android:textStyle="bold"
+      	/>
+    <View
+		android:layout_width="wrap_content"
+		android:layout_height="1dp"
+		android:layout_marginTop="2dp"
+		android:layout_marginBottom="10dp"	    	    
+		android:background="@color/page_background" />
+    
+    <EditText
+    	android:id="@+id/relic_edit_street_id"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="textCapSentences"
+    	android:hint="@string/relic_edit_street_hint" />
+    
+    <EditText
+    	android:id="@+id/relic_edit_place_id"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="textCapSentences"
+    	android:hint="@string/relic_edit_place_hint" />
+    
+    <EditText
+    	android:id="@+id/relic_edit_commune_id"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="textCapSentences"
+    	android:hint="@string/relic_edit_commune_hint" />
+    
+    <EditText
+    	android:id="@+id/relic_edit_district_id"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="text"
+    	android:hint="@string/relic_edit_district_hint" />
+
+    <Spinner
+        android:id="@+id/relic_edit_voivodship_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/voivodships" />
+    
+    <TextView
+    	android:layout_width="match_parent"
+     	android:layout_height="wrap_content"
+     	android:layout_marginTop="16dp"
+     	android:paddingLeft="10dp"
+    	android:text="@string/relic_edit_map_label"
+     	android:textColor="@color/page_background"
+      	android:textStyle="bold"
+      	/>
+    <View
+		android:layout_width="wrap_content"
+		android:layout_height="1dp"
+		android:layout_marginTop="2dp"
+		android:layout_marginBottom="10dp"	    	    
+		android:background="@color/page_background" />
+    <LinearLayout
+        android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"   	
+    	>	
+    	<ImageView
+			android:id="@+id/relic_edit_map"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:paddingTop="13dp"
+			android:paddingBottom="13dp" 
+			android:src="@drawable/ic_default_map"
+			android:contentDescription="@string/content_relic_detail_map"
+		/>	
+		<LinearLayout
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:paddingTop="13dp"
+		    android:paddingBottom="13dp"
+		   	android:paddingLeft="10dp"
+		    >
+			<EditText 
+	    		android:id="@+id/relic_edit_latitude_id"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:inputType="numberDecimal"
+				android:maxLength="9"
+				android:hint="@string/relic_edit_latitude_hint">
+			</EditText>
+			<EditText 
+	    		android:id="@+id/relic_edit_longitude_id"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:inputType="numberDecimal"
+				android:maxLength="9"
+				android:hint="@string/relic_edit_longitude_hint"
+				android:layout_marginTop="5dp"
+			/>
+		</LinearLayout>
+		
+	</LinearLayout>
+    <TextView
+    	android:layout_width="match_parent"
+     	android:layout_height="wrap_content"
+     	android:layout_marginTop="16dp"
+     	android:paddingLeft="10dp"
+    	android:text="@string/relic_details_description_label"
+     	android:textColor="@color/page_background"
+      	android:textStyle="bold"
+      	/>
+    <View
+		android:layout_width="wrap_content"
+		android:layout_height="1dp"
+		android:layout_marginTop="2dp"
+		android:layout_marginBottom="10dp" 	    	    
+		android:background="@color/page_background" />
+
+    <EditText
+        android:id="@+id/relic_edit_description_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:inputType="textMultiLine" 
+        android:hint="@string/relic_edit_hint">
+		
+        
+    </EditText>
+</LinearLayout>
+</ScrollView>

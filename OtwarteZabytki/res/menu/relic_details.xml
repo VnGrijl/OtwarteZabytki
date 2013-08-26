@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_relic_details_edit"
+        android:orderInCategory="98"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_action_edit"
+        android:title="@string/action_edit"/>
+    
+    <item
+        android:id="@+id/action_save_noedit"
+        android:orderInCategory="99"
+        android:showAsAction="never"
+        android:title="@string/action_save_noedit"/>
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+	
+</menu>

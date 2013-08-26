@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_edit_save"
+        android:orderInCategory="98"
+        android:showAsAction="withText"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/action_ok"/>
+    
+    <item
+        android:id="@+id/action_edit_cancel"
+        android:orderInCategory="99"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_action_cancel"
+        android:title="@string/action_cancel"/>
+
+</menu>

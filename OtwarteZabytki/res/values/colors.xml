@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Common Colors -->    
+    <color name="mill">#D82116</color>
+	<color name="church">#a0215b</color>
+	<color name="tower">#009f96</color>
+	<color name="house">#fbad17</color>
+	<color name="page_background">#446372</color>
+	<color name="page_background_light">#a7bac4</color>
+	<color name="page_foreground">#fefefe</color>
+	<color name="background_holo_light">#fff3f3f3</color>
+	<color name="divider">#e2e2e2</color>
+	<color name="hint">#999</color>
+	<color name="state_text">#fff</color>
+	<color name="home_text">#999</color>
+	<color name="green_answer">#2c865e</color>
+	
+<!-- Splash Colors -->
+	<color name="mill_background">#ed574e</color>
+	<color name="church_background">#d63880</color>
+	<color name="tower_background">#00d2c6</color>
+	<color name="house_background">#fcc862</color>
+    
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/googlecard"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+	
+	    <ImageView
+			android:id="@+id/search_item_img"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+		   	android:layout_gravity="center_vertical"
+		   	android:paddingTop="10dp"
+			android:paddingBottom="10dp" 
+			android:src="@drawable/ic_default_list"
+			android:contentDescription="@string/content_search_item_thumbnail"
+			/>
+	 
+		<RelativeLayout
+		    android:orientation="vertical"
+		    android:layout_width="0dp"
+		    android:layout_height="fill_parent"
+		    android:paddingTop="10dp"
+		    android:paddingBottom="10dp"
+		   	android:paddingLeft="10dp"
+		    android:layout_weight="1"
+		    >
+	 
+		    <TextView android:id="@+id/search_item_title"
+		         android:layout_width="fill_parent"
+		         android:layout_height="wrap_content"
+		         android:singleLine="true"
+		         android:textStyle="bold"
+		         />
+	 
+		    <TextView android:id="@+id/search_item_desc"
+		         android:layout_width="fill_parent"
+		         android:layout_height="wrap_content"
+		         android:layout_below="@id/search_item_title"
+		         />
+	 
+		    <View 
+		        android:id="@+id/search_item_state"
+		        android:layout_width="30dp"
+		        android:layout_height="3dp"
+		        android:layout_alignParentBottom="true"
+		        android:layout_alignParentRight="true"
+		        android:background="@drawable/draw_state_1_rectangle"
+		        />
+    	</RelativeLayout>
+</LinearLayout>

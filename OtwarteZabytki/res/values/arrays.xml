@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="relic_states">
+        <item>uzupełniony</item>
+        <item>sprawdzony</item>
+        <item>niesprawdzony</item>
+    </string-array>
+    <string-array name="relic_contents">
+        <item>brak zdjęcia</item>
+        <item>ze zdjęciem</item>
+        <item>brak opisu</item>
+        <item>z opisem</item>
+    </string-array>
+    <string-array name="relic_types">
+        <item>wpisany do rejestru zabytków</item>
+        <item>dodany społecznościowo</item>
+    </string-array>
+    <string-array name="voivodships">
+        <item>Wojwództwo</item>
+        <item>woj. dolnośląskie</item>
+        <item>woj. kujawsko-pomorskie</item>
+        <item>woj. łódzkie</item>
+        <item>woj. lubelskie</item>
+        <item>woj. lubuskie</item>
+        <item>woj. małopolskie</item>
+        <item>woj. mazowieckie</item>
+        <item>woj. opolskie</item>
+        <item>woj. podkarpackie</item>
+        <item>woj. podlaskie</item>
+        <item>woj. pomorskie</item>
+        <item>woj. śląskie</item>
+        <item>woj. świętokrzyskie</item>
+        <item>woj. warmińsko-mazurskie</item>
+        <item>woj. wielkopolskie</item>
+        <item>woj. zachodniopomorskie</item>
+    </string-array>
+</resources>

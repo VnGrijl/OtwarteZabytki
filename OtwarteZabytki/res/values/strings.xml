@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Otwarte Zabytki</string>
+
+    <!-- Content Descriptions -->
+    <string name="content_splash_logo">Splash Image</string>
+    <string name="content_search_item_thumbnail">Search Item Thumbnail</string>
+    <string name="content_checklist_item_thumbnail">Checklist Item Thumbnail</string>
+    <string name="content_search_fold_unfold">Fold Unfold Search Params</string>
+    <string name="content_relic_detail_thumbnail">Relic Detail Thumbnail</string>
+    <string name="content_relic_detail_map">Relic Detail Map</string>
+    <string name="content_home_background">Home/Search Image</string>
+
+    <!-- ActionBar items -->
+    <string name="action_settings">Ustawienia</string>
+    <string name="action_search">Szukaj</string>
+    <string name="action_add">Dodaj nowy</string>
+    <string name="action_edit">Edytuj</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Anuluj</string>
+    <string name="action_done">Zapisz</string>
+    <string name="action_camera">Zrób zdjęcie</string>
+    <string name="action_gallery">Wybierz zdjęcie z galerii</string>
+    <string name="action_remove_photo">Usuń zdjęcie</string>
+    <string name="action_save_noedit">Zapisz na później</string>
+    <string name="action_delete">Usuń</string>
+
+    <!-- Activity titles -->
+    <string name="title_activity_home">Otwarte Zabytki</string>
+    <string name="title_activity_search">Wyszukaj</string>
+    <string name="title_activity_search_results">Wyniki wyszukiwania</string>
+    <string name="title_activity_relic_details">Informacje ogólne</string>
+    <string name="title_activity_check_list">Ankieta</string>
+    <string name="title_activity_map_show">Lokalizacja</string>
+    <string name="title_activity_relic_edit">Edytuj</string>
+    <string name="title_activity_map_get">Ustal współrzędne</string>
+    <string name="subtitle_activity_map_get">Zaznacz na mapie lokalizacje zabytku</string>
+
+    <!-- Checklist items -->
+    <string name="checklist_default_answer">Brak odpowiedzi!</string>
+    <string name="opinion_item_label">Ogólna ocena zabytku</string>
+
+    <!-- Search components -->
+    <string name="search_what">Co:</string>
+    <string name="search_where">Gdzie:</string>
+    <string name="search_filter_label">OPCJE FILTROWANIA</string>
+    <string name="search_date_label">DATA POWSTANIA</string>
+    <string name="search_filter_state_label">Stan</string>
+    <string name="search_filter_state_fragment_title">Stan w bazie danych</string>
+    <string name="search_filter_content_label">Zawartość</string>
+    <string name="search_filter_content_fragment_title">Zawartość w bazie danych</string>
+    <string name="search_filter_type_label">Rodzaj</string>
+    <string name="search_filter_type_fragment_title">Rodzaj</string>
+    <string name="search_button_search">SZUKAJ</string>
+    <string name="search_from">Od:</string>
+    <string name="search_to">Do:</string>
+    <string name="search_show_more_results">Pokaż więcej wyników&#8230;</string>
+    <string name="search_no_results">Brak wyników&#8230;</string>
+    <string name="search_no_connection">Brak połączenia z internetem!</string>
+
+    <!-- Relic Details -->
+    <string name="relic_details_checklist_button_label">Ankieta</string>
+    <string name="relic_details_send_button_label">Wyślij</string>
+    <string name="relic_details_location_label">LOKALIZACJA</string>
+    <string name="relic_details_dating_label">Data powstania: </string>
+    <string name="relic_details_description_label">OPIS</string>
+    <string name="relic_details_state_filled">UZUPEŁNIONY</string>
+    <string name="relic_details_state_checked">SPRAWDZONY</string>
+    <string name="relic_details_state_unchecked">NIEPSRAWDZONY</string>
+    <string name="relic_details_coordinates">Współrzędne</string>
+    <string name="relic_edit_hint">Krótki opis zabytku&#8230;</string>
+    <string name="relic_edit_street_hint">Ulica</string>
+    <string name="relic_edit_place_hint">Miejscowość</string>
+    <string name="relic_edit_commune_hint">Gmina</string>
+    <string name="relic_edit_district_hint">Powiat</string>
+    <string name="relic_edit_dating_hint">Data powstania</string>
+    <string name="relic_edit_name_hint">Nazwa</string>
+    <string name="relic_edit_map_label">WSPÓŁRZĘDNE GEOGRAFICZNE</string>
+    <string name="relic_edit_latitude_hint">Szerokość geograficzna</string>
+    <string name="relic_edit_longitude_hint">Długość geograficzna</string>
+    <string name="relic_edit_validate">Podaj nazwę aby zapisać</string>
+    <string name="relic_details_error_text">Błąd połączenia!</string>
+    <string name="relic_details_error_button">Ponów próbę</string>
+    <string name="relic_details_save_confirm">Zabytek zapisany.</string>
+    
+    <!-- Home -->
+	<string name="home_text_splash_1">Tutaj będą się pojawiać</string>
+	<string name="home_text_splash_2">edytowane przez Ciebie zabytki</string>
+	<string name="home_highlight_item_notsent">Nie wysłane</string>
+</resources>

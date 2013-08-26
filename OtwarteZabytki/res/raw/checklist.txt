@@ -1,0 +1,18 @@
+0;-1;;Czy ściany zewnętrzne są popękane?;Tak^Nie^Nie widać;;
+1;-1;;Czy pęknięcia są głębokie, czy tylko na powierzchni?;Głębokie^Na powierzchni^Nie widać;;
+2;-1;;Czy ściany zewnętrzne są zawilgocone?;Tak^Nie^Nie widać;;
+3;-1;;Czy ściany zewnętrze są pomazane (np. graffiti)?;Tak^Nie^Nie widać;;
+4;-1;;Czy ściany są porośnięte porostami, mchem, inną roślinnością?;Tak^Nie^Nie widać;;
+5;-1;;Czy budynek jest ocieplony?;Tak^Nie^Nie widać;;
+6;-1;;Czy zewnętrzne ozdoby są w dobrym stanie?;Tak^Nie^Nie ma ozdób^Nie widać;;
+7;-1;;Czy drzwi i okna wyglądają na oryginalne?;Tak^Nie^Trudno powiedzieć;;
+8;-1;;Czy szyby w oknach/drzwiach są powybijane?;Tak^Nie^Nie widać;;
+9;-1;;Czy dach jest w dobrym stanie?;Tak^Nie^Nie widać;;
+10;-1;;Czy rynny są w dobrym stanie?;Tak^Nie^Nie widać;;
+11;-1;;Czy rynny są zapchane np. liśćmi?;Tak^Nie^Nie widać;;
+12;-1;;Czy obiekt wygląda na wyremontowany?;Tak^Nie^Częściowo;;
+13;-1;;Czy do budynku można wejść/zajrzeć do środka?;Tak^Nie;;
+14;13;Tak;Czy ściany wewnątrz są popękane?;Tak^Nie^Nie widać;;
+15;13;Tak;Czy ściany wewnętrze są pomazane (np. graffiti)?;Tak^Nie^Nie widać;;
+16;13;Tak;Czy sufity są w dobrym stanie?;Tak^Nie;;
+17;13;Tak;Czy widoczne/wyczuwalne jest zagrzybienie?;Tak^Nie;;

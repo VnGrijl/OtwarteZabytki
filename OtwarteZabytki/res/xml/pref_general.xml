@@ -1,0 +1,25 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="mail_checkbox"
+        android:title="@string/pref_mail_title"
+        android:summary="@string/pref_mail_subtitle" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:dependency="mail_checkbox"
+        android:inputType="textEmailAddress"
+        android:key="mail_to_send"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_mail" />
+
+   	<CheckBoxPreference
+        android:defaultValue="true"
+        android:key="get_pictures"
+        android:title="@string/pref_get_pictures_title"
+         />
+
+</PreferenceScreen>

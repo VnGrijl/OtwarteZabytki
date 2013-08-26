@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/checklist_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/googlecard"
+    android:layout_marginBottom="5dp"
+    
+    >
+    <LinearLayout
+	    android:id="@+id/checklist_item_up"
+	    android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="10dp"
+    	android:paddingRight="10dp"
+    	
+    	>
+		<ImageView
+		    android:id="@+id/checklist_item_img"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:paddingTop="13dp"
+			android:paddingBottom="13dp" 
+			android:src="@drawable/ic_default_list"
+			android:contentDescription="@string/content_checklist_item_thumbnail"
+		/>
+		<RelativeLayout
+		    android:id="@+id/checklist_item_upleft"
+		    android:orientation="vertical"
+		    android:layout_width="0dp"
+		    android:layout_height="fill_parent"
+		    android:paddingTop="13dp"
+		    android:paddingBottom="13dp"
+		   	android:paddingLeft="10dp"
+		    android:layout_weight="1"
+		    >
+			<TextView 
+	    		android:id="@+id/checklist_item_question"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				
+			/>
+			
+			<TextView
+			    android:id="@+id/checklist_item_answer"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/checklist_default_answer"
+			    android:layout_alignParentBottom="true"
+			    android:layout_alignParentRight="true"
+			    android:textColor="@color/mill_background" />
+	 
+		</RelativeLayout>
+	</LinearLayout>
+	
+</RelativeLayout>

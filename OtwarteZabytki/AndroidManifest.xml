@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.otwartezabytki.android"
+    android:versionCode="1"
+    android:versionName="0.8" 
+    android:installLocation="auto" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_otwarte"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light.DarkActionBar" >
+        <activity
+            android:name="pl.otwartezabytki.android.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.otwartezabytki.android.HomeActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="pl.otwartezabytki.android.SettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="pl.otwartezabytki.android.SearchActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="pl.otwartezabytki.android.SearchResultsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_search_results" >
+        </activity>
+        <activity
+            android:name="pl.otwartezabytki.android.RelicDetailsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_relic_details" >
+        </activity>
+        <activity
+            android:name="pl.otwartezabytki.android.CheckListActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_check_list" >
+        </activity>
+        <activity
+            android:name="pl.otwartezabytki.android.MapShowActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_map_show" >
+        </activity>
+        <activity
+            android:name="pl.otwartezabytki.android.RelicEditActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_relic_edit" >
+        </activity>
+		<activity
+            android:name="pl.otwartezabytki.android.MapGetActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_map_get" >
+        </activity>
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyC4gKLDl_Ho-tDrfDwMAxY0RntEoT-dj48" />
+
+        
+    </application>
+
+</manifest>
